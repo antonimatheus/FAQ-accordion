@@ -1,0 +1,33 @@
+.container--Questions {
+    display: flex;
+    flex-direction: column;
+    /*background-color: red;*/
+    width: 95%;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.question {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    transition: .4s;
+}
+
+.question:hover {
+    color: purple;
+}
+
+.question img {
+    width: 30px;
+}
+
+.answer {
+    margin-top: 10px;
+}
+
+.answer p {
+    color: rgba(0, 0, 0, 0.7);
+}

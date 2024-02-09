@@ -1,12 +1,14 @@
+import React from 'react'
 import './App.css'
 
-function App() {
+import Hero from './MainContent';
 
+function App() {
   return (
     <div className='container--App'>
-
+      <Hero />
     </div>
   )
 }
 
-export default App
+export default App;
