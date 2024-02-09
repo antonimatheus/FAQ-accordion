@@ -1,8 +1,6 @@
 .container--mainContent {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 550px;
     height: auto;
     border-radius: 15px;
@@ -21,4 +19,10 @@
 .title-mainContent h1 {
     font-size: 50px;
     color: var(--darkPurple)
+}
+
+@media screen and (max-width: 950px){
+    .container--mainContent {
+        width: 330px;
+    }
 }
